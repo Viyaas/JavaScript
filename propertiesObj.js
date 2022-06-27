@@ -7,4 +7,4 @@ const myDog = {
   
    console.log(myDog.bark = "woof"); 
 
-  console.log(myDog);
+
