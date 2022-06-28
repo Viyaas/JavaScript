@@ -1,6 +1,7 @@
-let i = 1;
+const myArray = [];
 
-for(i=1;i<=10;i++)
+for (let i =1; i<6; i++)
 {
-    console.log("hi viyaa"+i);
+  myArray.push(i);
 }
+console.log(myArray);
