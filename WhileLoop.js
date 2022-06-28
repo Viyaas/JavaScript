@@ -1,7 +1,10 @@
-let val = 1;
+const myArray = [];
+ let i = 0;
+  
+  while(i<5)
+  {
+    myArray.push(i);
+    i++;
+  }
 
-while(val<=5)
-{
-    console.log("hi buddy");
-    val++;
-}
+  console.log(myArray);
