@@ -1,46 +1,47 @@
 const contacts = [
     {
-      firstName: "Akira",
-      lastName: "Laine",
+      firstName: "Viyas",
+      lastName: "Selvam",
       number: "0543236543",
-      likes: ["Pizza", "Coding", "Brownie Points"],
+      likes: ["Pizza", "Coding", "Brownie Ice cream"],
     },
     {
-      firstName: "Harry",
-      lastName: "Potter",
+      firstName: "Jack",
+      lastName: "Mohamed",
       number: "0994372684",
-      likes: ["Hogwarts", "Magic", "Hagrid"],
+      likes: ["Coding", "Full Stack", " Developer"],
     },
     {
-      firstName: "Sherlock",
-      lastName: "Holmes",
+      firstName: " Saran",
+      lastName: " Viyas",
       number: "0487345643",
-      likes: ["Intriguing Cases", "Violin"],
+      likes: [" Coffee  ", " Poetist "],
     },
     {
-      firstName: "Kristian",
-      lastName: "Vos",
+      firstName: "Vijay",
+      lastName: "ChandraSekar",
       number: "unknown",
-      likes: ["JavaScript", "Gaming", "Foxes"],
+      likes: ["JavaScript", "Gaming", " Developer "],
     },
   ];
   
   function lookUpProfile(name, prop) {
     
-    for (let i = 0; i < contacts.length; i++) {
-        if (contacts[i].firstName === name) {
-          if (prop in contacts[i]) {
-            return contacts[i][prop];
-          } else {
-            return "No such property";
+    for(let i =0; i<contacts.length; i++)
+    {
+      if(contacts[i].firstName === name)
+      {
+        if(prop in contacts[i])
+        {
+          return contacts[i][prop];           
+          }else{
+            return "No Such Property";
           }
         }
       }
       return "No such contact";
-
-  }
-  
-  console.log(lookUpProfile("Akira", "likes"));
+    }
+  console.log(lookUpProfile("Viyas", "likes"));
 
 
 
