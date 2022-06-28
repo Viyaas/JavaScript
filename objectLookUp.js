@@ -1,5 +1,5 @@
 function phoneticLookup(val) {
-    var result = val;
+    var result = "";
     var lookup = {
       'alpha ': "Adams",
       bravo: "Boston",
@@ -16,5 +16,5 @@ function phoneticLookup(val) {
     return result;
   }
 
-   var result =  console.log(phoneticLookup.charlie);
+   var answer  =  console.log(phoneticLookup.charlie);
   
