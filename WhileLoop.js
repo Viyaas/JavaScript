@@ -1,10 +1,10 @@
 const myArray = [];
- let i = 0;
+ let i = 5;
   
-  while(i<5)
+  while(i>0)
   {
     myArray.push(i);
-    i++;
+    i--;
   }
 
   console.log(myArray);
