@@ -11,7 +11,7 @@ const result = {
        failureItems.push(`<li class="text-warning"> ${arr[i]} </li>`);
     }
     
-  
+  /// template literal string 
     return failureItems;
   }
   
