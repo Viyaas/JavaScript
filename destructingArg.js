@@ -8,4 +8,4 @@ const highTemprature = {
 // in ES6 new feature was , we can call the values from destructing arrgument from objecct
 const { yesterday , tomorrow} = highTemprature;
 
-console.log(highTemprature);
+console.log({yesterday , tomorrow});

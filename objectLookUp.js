@@ -1,6 +1,6 @@
 function phoneticLookup(val) {
-    var result = "";
-    var lookup = {
+    let result = "";
+    let lookup = {
       'alpha ': "Adams",
       bravo: "Boston",
       charlie : "Chicago",
@@ -9,12 +9,8 @@ function phoneticLookup(val) {
       foxtrot: "Frank"
     };
   
-  
-  
-//    console.log( result = lookup[val]);
-  
     return result;
   }
 
-   var answer  =  console.log(phoneticLookup.charlie);
-  
+   let answer  =  phoneticLookup.charlie;
+  //  console.log(lookup[val]);

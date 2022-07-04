@@ -6,4 +6,4 @@ const temprature = {
 
 const { today : highToday , tomorrow : highTomorrow} =  temprature;
 
-console.log(temprature);
+console.log({highToday,highTomorrow});

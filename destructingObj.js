@@ -13,4 +13,4 @@ const status = {
   
   }
   
-  console.log(status);
+  console.log({status});
