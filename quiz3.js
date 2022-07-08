@@ -9,3 +9,4 @@ function factorialize(num)
     return num ;
 }
 console.log(factorialize(7));
+// Finding the nth Factorialize Number ?    
