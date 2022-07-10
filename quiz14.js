@@ -1,6 +1,6 @@
 function chunkArrayInGroups(arr, size) {
     let array = [];
-     while (arr.length < 0)
+     while (arr.length > 0)
      {
        array.push(arr.splice(0 , size));
      }

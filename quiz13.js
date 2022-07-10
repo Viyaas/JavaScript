@@ -16,5 +16,5 @@ function mutation(arr)
 console.log(mutation(["Viyas","vija"]));
 
 // mutation ?
-// in this program will return true above strings are 
+// in this program will return the  true statement  above strings are 
 // or otherwise it will return false

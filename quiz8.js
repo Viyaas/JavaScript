@@ -12,6 +12,6 @@ function findElement(arr,fun)
     // return num;
 }
 
-console.log(findElement([1,2,,3,4], num => num % 2 === 0));
+console.log(findElement([1,2,6,3,4], num => num % 2 === 0));
 
 // Find thee Keeper in array method 

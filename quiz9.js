@@ -4,4 +4,4 @@ function booWho(bool) {
   
  console.log(booWho(false));
 
-  // Bee who check available if true or false 
+  // Booswho check the mention statement is  available ? in true or false 
