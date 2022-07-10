@@ -4,7 +4,7 @@ function factorialize(num)
         return 1;
     }
     else{
-        return num * factorialize(num -1);
+        return num * factorialize(num-1);
     }
     return num ;
 }
