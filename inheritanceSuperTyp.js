@@ -19,7 +19,7 @@ Animal.prototype = {
  
 
 let duck = Object.create(Animal.prototype);  
-duck.eat()
+duck.eat();
 let beagle = Object.create(Animal.prototype);  
-beagle.eat()
+beagle.eat();
  
