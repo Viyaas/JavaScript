@@ -1,5 +1,5 @@
 let hello = "   Hello, World!  ";
-let wsRegex = /^\s+|\s+$/g; //  the 
-let result = hello.replace(wsRegex,""); // Change this line
+let wsRegex = /^\s+|\s+$/g; //  
+let result = hello.replace(wsRegex,""); 
 
 console.log(result);

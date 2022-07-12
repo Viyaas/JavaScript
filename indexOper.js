@@ -7,7 +7,7 @@ function quickCheck(arr, elem) {
   
    // Since arrays can be changed, or mutated, at any time, there's no guarantee about 
    // where a particular piece of data will be on a given array 
-   // f that element even still exists. Luckily, 
+   // that element even still exists. Luckily, 
    // JavaScript provides us with another built-in method, indexOf(),
    // hat allows us to quickly and easily check for the presence of an element on an array. 
    // takes an element as a parameter, and when called, it returns the position, 
