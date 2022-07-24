@@ -9,3 +9,6 @@ function pairElement(str) {
     return arr.map(x => [x, pairs[x]]);
  }
  console.log(pairElement("GCG"));
+
+ // this program will calculate the DNA samples 
+ // and return the output given through DNA samples
